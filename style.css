@@ -1,9 +1,10 @@
 #clock {
-    position: absolute;
+    position: relative;
+    width: 200px;   /* the image width */
+    height: 200px;  /* the image height */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); /* IE 9 */
-    -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
+    margin-top: -100px;  /* half the image height */
+    margin-left:-100px;  /* half the image width */
 }
 
