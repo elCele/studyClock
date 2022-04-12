@@ -3,6 +3,7 @@ let btn = document.getElementById('ok');
 document.addEventListener('click', () => {
     console.log('it work!');
     btn.remove();
+    console.log(btn);
 
     const div = document.getElementById('frostedDiv');
 
